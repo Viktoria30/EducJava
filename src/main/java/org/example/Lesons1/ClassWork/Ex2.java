@@ -25,7 +25,6 @@ public class Ex2 {
             b = scanner.nextInt();
             if (a > 0 && b < 0) count++;
             a = b;
-
         }
         scanner.close();
         return count;

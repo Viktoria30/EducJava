@@ -21,7 +21,7 @@ public class Ex1 {
         int sum = 0;
         int a = 0, b = 0;
         a = scanner.nextInt();
-        for (int i = 0; i < n; i++) {
+        while(a != 0) {
             b = scanner.nextInt();
             if (a > 0 && b < 0) sum += a;
             a = b;
